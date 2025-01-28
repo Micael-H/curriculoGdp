@@ -1,0 +1,106 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background: linear-gradient(135deg, #5B1933, #F8F3EB);
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background: #5B1933;
+  color: #F8F3EB;
+}
+
+header .foto-perfil {
+  width: 120px;
+  height: 120px;
+}
+
+.header-content .email-link a {
+    color: inherit;  /* Herda a cor do texto */
+    text-decoration: none;  /* Remove o sublinhado */
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 1.6em;
+  color: #5B1933;
+  border-bottom: 2px solid #5B1933;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #5B1933;
+  color: #F8F3EB;
+}
+
+footer p {
+  margin: 0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal img {
+  display: block;
+  margin: 50px auto;
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.modal .close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.formacao-item {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.formacao-item:hover {
+  color: #5B1933;
+  text-decoration: underline;
+}
